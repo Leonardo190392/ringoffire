@@ -1,0 +1,47 @@
+.start-screen {
+    background-color: #404040;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        width: 100vw;
+        height: 100vh;
+        max-width: 100%;
+        object-fit: cover;
+    }
+}
+
+.start-label-box {
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h2{
+        font-size: 80px;
+        margin-bottom: 40px;
+    }
+
+    button{
+        font-size: 28px;
+        font-weight: 500;
+        cursor: pointer;
+        height: 8vh;
+        width: 20vw;
+        border-radius: 12px;
+        border: 0.5px solid rgb(207, 207, 207);
+        background-image:linear-gradient(135deg, gold 20%, rgb(248, 228, 50) 90%);
+        
+
+        &:hover {
+            filter: brightness(1.05);
+        }
+    }
+}
