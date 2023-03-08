@@ -7,19 +7,19 @@ import { Component, Input, OnChanges, OnInit } from '@angular/core';
 })
 export class GameInfoComponent implements OnChanges  {
   cardAction = [
-    { title: 'Waterfall', description: 'Everyone has to start drinking at the same time. As soon as player 1 stops drinking, player 2 may stop drinking. Player 3 may stop as soon as player 2 stops drinking, and so on.' },
-    { title: 'You', description: 'You decide who drinks' },
-    { title: 'Me', description: 'Congrats! Drink a shot!' },
-    { title: 'Category', description: 'Come up with a category (e.g. Colors). Each player must enumerate one item from the category.' },
-    { title: 'Bust a jive', description: 'Player 1 makes a dance move. Player 2 repeats the dance move and adds a second one. ' },
-    { title: 'Chicks', description: 'All girls drink.' },
-    { title: 'Heaven', description: 'Put your hands up! The last player drinks!' },
-    { title: 'Mate', description: 'Pick a mate. Your mate must always drink when you drink and the other way around.' },
-    { title: 'Thumbmaster', description: '' },
-    { title: 'Men', description: 'All men drink.' },
-    { title: 'Quizmaster', description: '' },
-    { title: 'Never have i ever...', description: 'Say something you nnever did. Everyone who did it has to drink.' },
-    { title: 'Rule', description: 'Make a rule. Everyone needs to drink when he breaks the rule.' },
+    { title: 'Waterfall', description: 'Spieler 1 setzt an und die anderen sofort hinter her , wenn Spieler 1 absetzt darf Spieler 2 absetzen und so weiter' },
+    { title: 'You', description: 'du entscheidest wer trinkt' },
+    { title: 'Me', description: 'Glückwunsch, du darfst einen Shot trinken!' },
+    { title: 'Category', description: 'Themenrunde!' },
+    { title: 'Bust a jive', description: 'Spieler 1 macht eine bewegung und Spieler 2 wiederholt diese und fügt eine hinzu und so weiter ' },
+    { title: 'Chicks', description: 'Alle Frauen trinken.' },
+    { title: 'Heaven', description: 'Schmeiß deine Hände in die Luft , wer sie als letztes oben hat trinkt' },
+    { title: 'Mate', description: 'Such dir einen Mitspieler aus , der immer mit dir trinkt' },
+    { title: 'Thumbmaster', description: 'Für jede Frage die dir beantwortet wird, muss der jenige ein trinken ()' },
+    { title: 'Men', description: 'Alle Männer trinken.' },
+    { title: 'Quizmaster', description: 'Wähle ein Wort worauf der nachfolgende Spieler ein Reim finden muss, wer kein Reim findet trinkt' },
+    { title: 'Never have i ever...', description: 'Sag etwas was du noch nie getan hast , wenn es jemand getan hat muss er trinken' },
+    { title: 'Rule', description: 'Stelle eine Regel auf , wer sie bricht , trinkt' },
   ];
 
   title = '';

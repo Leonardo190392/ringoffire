@@ -89,3 +89,28 @@
         
     }
 }
+
+app-player, app-player-mobile {
+    cursor: pointer;
+
+    &:hover {
+        filter: brightness(1.25);
+    }
+}
+
+.gameOver {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 300px;
+    }
+}
+
+.preloadImage {
+    opacity: 0;
+    height: 0px;
+    width: 0px;
+    z-index: -9;
+}
